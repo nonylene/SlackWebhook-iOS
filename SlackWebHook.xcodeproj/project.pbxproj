@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F5137921C877047000F3453 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2F5137911C877047000F3453 /* Settings.bundle */; };
 		2FE55FCC1C870B9E00905B22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE55FCB1C870B9E00905B22 /* AppDelegate.swift */; };
 		2FE55FD31C870B9F00905B22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FE55FD21C870B9F00905B22 /* Assets.xcassets */; };
 		2FE55FD61C870B9F00905B22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FE55FD41C870B9F00905B22 /* LaunchScreen.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F5137911C877047000F3453 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		2FE55FC81C870B9E00905B22 /* SlackWebHook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlackWebHook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FE55FCB1C870B9E00905B22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FE55FD21C870B9F00905B22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				2FE55FD41C870B9F00905B22 /* LaunchScreen.storyboard */,
 				2FE55FD71C870B9F00905B22 /* Info.plist */,
 				2FE55FDD1C871A5000905B22 /* TableViewController.swift */,
+				2F5137911C877047000F3453 /* Settings.bundle */,
 				2FE55FDF1C8743F900905B22 /* MainTableViewController.swift */,
 			);
 			path = SlackWebHook;
@@ -155,6 +158,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F5137921C877047000F3453 /* Settings.bundle in Resources */,
 				2FE55FE31C874ADB00905B22 /* Main.storyboard in Resources */,
 				2FE55FD61C870B9F00905B22 /* LaunchScreen.storyboard in Resources */,
 				2FE55FD31C870B9F00905B22 /* Assets.xcassets in Resources */,
