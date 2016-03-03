@@ -56,7 +56,7 @@ class TableViewController: UITableViewController {
         request.addValue("application/json", forHTTPHeaderField: "Content-Type")
 
         let progress = MBProgressHUD.showHUDAddedTo(self.view, animated: true)
-        progress.mode = MBProgressHUDMode.Indeterminate
+        progress.mode = .Indeterminate
         progress.labelText = "Sending"
 
         try! request.HTTPBody = NSJSONSerialization.dataWithJSONObject(params, options: .PrettyPrinted)
@@ -82,5 +82,9 @@ class TableViewController: UITableViewController {
                 }
             })
         }).resume()
+    }
+
+    override func tableView(tableView: UITableView, shouldHighlightRowAtIndexPath indexPath: NSIndexPath) -> Bool {
+        return false
     }
 }
