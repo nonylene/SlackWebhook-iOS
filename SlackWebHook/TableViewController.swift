@@ -71,13 +71,13 @@ class TableViewController: UITableViewController {
                 }
                 if let message = errorMessage {
                     progress.hide(true)
-                    let alert = UIAlertController(title: "Message not send", message: message, preferredStyle: .Alert)
+                    let alert = UIAlertController(title: "Message not sent", message: message, preferredStyle: .Alert)
                     alert.addAction(UIAlertAction(title: "OK", style: .Default, handler: nil))
                     self.presentViewController(alert, animated: true, completion: nil)
                 } else {
                     progress.customView = UIImageView(image: UIImage(named: "CheckMark"))
                     progress.mode = .CustomView
-                    progress.labelText = "Message send"
+                    progress.labelText = "Message sent"
                     progress.hide(true, afterDelay: 1)
                 }
             })
